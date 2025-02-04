@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.monoton-regular {
+    font-family: "Monoton", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.main_text{
+    font-family: "Monoton", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    left: 135px;
+    top: 171px;
+    bottom: 775px;
+    right: 455px;
+}
+
+.second_text{
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    left: 135px;
+    top: 300px;
+    
+}
+
+*{
+margin: 0;
+padding: 0;
+border: 0;
+}
+
+.box{
+    
+    background: url(../img/2.png);
+    background-color: #1F5272;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+
+}
+
+
+
+.image{
+    position: absolute;
+    top: 95px;
+    left: 1050px;
+    transform: rotate(15deg);
+
+}
+
+.btn{
+    width: 430px;
+    height: 120px;
+    position: absolute;
+    top: 500px;
+    left: 320px;
+    border-radius: 600px;
+    text-align: center;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-size: 40px;
+    color: #6042CE;
+    cursor: pointer;
+    
+}
